@@ -19,6 +19,14 @@ button.addEventListener("click", function(){
     header.classList.toggle("nav-open")
 });
 
+var mainNav = document.querySelector(".main-nav-list");
+
+mainNav.addEventListener('click', function () {
+    console.log("clicked")
+    header.classList.remove("nav-open")
+
+});
+
 
 // function checkFlexGap() {
 

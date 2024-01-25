@@ -360,8 +360,17 @@
 
     .grid--2-cols{
         grid-template-columns: 1fr;
+    }
+    .firstpicture{
+        grid-row-start: 1;
 
     }
+    .lastpicture{
+        grid-row-start: 5;
+
+    }
+
+
     .testimonials-customers-container{
         grid-template-columns: 1fr;
 
